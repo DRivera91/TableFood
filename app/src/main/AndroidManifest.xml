@@ -23,6 +23,9 @@
         <activity
             android:name=".Activities.pantalla_usuario">
         </activity>
+        <activity
+            android:name=".Activities.lista_simple">
+        </activity>
     </application>
 
 

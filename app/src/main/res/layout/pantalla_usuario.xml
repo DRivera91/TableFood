@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:orientation="vertical">
 
     <TextView
         android:id="@+id/textView2"
@@ -12,4 +13,12 @@
         android:text="En esta pantalla se ver ael perfil del usuario"
         tools:layout_editor_absoluteX="57dp"
         tools:layout_editor_absoluteY="246dp" />
-</android.support.constraint.ConstraintLayout>
+
+    <Button
+        android:id="@+id/pedido"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hacer Pedido"
+        tools:layout_editor_absoluteX="132dp"
+        tools:layout_editor_absoluteY="349dp" />
+</LinearLayout>
