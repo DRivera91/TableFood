@@ -3,18 +3,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context="com.example.juanhernandez.project.Activities.MainActivity">
 
     <Button
         android:id="@+id/Button_Ingreso"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_below="@+id/Password"
-        android:layout_marginTop="44dp"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_above="@+id/Registro"
+        android:layout_alignEnd="@+id/textView7"
+        android:layout_alignRight="@+id/textView7"
         android:layout_weight="1"
-        android:text="Ingresar" />
+        android:text="@string/login" />
 
     <ImageView
         android:id="@+id/imageView"
@@ -27,35 +27,55 @@
 
     <EditText
         android:id="@+id/Name_User"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="300dp"
+        android:layout_height="30dp"
         android:layout_below="@+id/imageView"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="50dp"
+        android:background="#11000000"
+        android:drawableLeft="@drawable/ic_action_user"
         android:ems="10"
+        android:hint="@string/email"
         android:inputType="textPersonName"
         android:text="Name"
-        android:hint="Name"/>
+        android:textColor="@color/black"
+        android:textSize="16dp" />
 
     <EditText
         android:id="@+id/Password"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="300dp"
+        android:layout_height="30dp"
         android:layout_alignLeft="@+id/Name_User"
+        android:textSize="16dp"
+        android:background="#11000000"
+        android:textColor="@color/black"
         android:layout_alignStart="@+id/Name_User"
         android:layout_below="@+id/Name_User"
+        android:drawableLeft="@drawable/ic_action_password"
         android:layout_marginTop="27dp"
         android:ems="10"
-        android:hint="Password"
+        android:hint="@string/password"
         android:inputType="textPassword" />
+
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/Password"
+        android:layout_alignRight="@+id/Password"
+        android:layout_below="@+id/Password"
+        android:text="@string/forget" />
+
 
     <Button
         android:id="@+id/Registro"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_below="@+id/Button_Ingreso"
-        android:layout_marginTop="13dp"
-        android:text="Registro" />
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/Button_Ingreso"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/Button_Ingreso"
+        android:layout_marginBottom="24dp"
+        android:text="@string/sign_in" />
+
 </RelativeLayout>
