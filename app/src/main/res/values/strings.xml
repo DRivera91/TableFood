@@ -2,9 +2,17 @@
     <string name="app_name">Primero a su mesa</string>
     <string name="email">Email</string>
     <string name="password">Contraseña</string>
+    <string name="surname">Nombre</string>
+    <string name="phone">Teléfono</string>
+    <string name="confirm_password">Confirmar contraseña</string>
     <string name="login">Inciar Sesión</string>
     <string name="sign_in">Registrarse</string>
     <string name="forget">Olvidé mi contraseña</string>
+    <string name="visa">Visa</string>
+    <string name="mastercard">Mastercard</string>
+    <string name="american">American Express</string>
+    <string name="cardn">Número de tarjeta</string>
+    <string name="termns">He leído y estoy de acuerdo con los Términos y Condiciones y con las Políticas y Tratamientos de Datos Personales</string>
     <string name="error_invalid_email">Este correo es invalido</string>
     <string name="error_invalid_password">Esta contraseña es demasiado corta</string>
     <string name="error_incorrect_password">La contraseña es icorrecta</string>
