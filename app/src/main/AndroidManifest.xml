@@ -16,15 +16,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <activity
-            android:name=".Activities.pantalla_registro">
-        </activity>
-        <activity
-            android:name=".Activities.pantalla_usuario">
-        </activity>
+        <activity android:name=".Activities.pantalla_registro" />
+        <activity android:name=".Activities.pantalla_usuario" />
+        <activity android:name=".Activities.recordar"></activity>
     </application>
-
-
 
 </manifest>

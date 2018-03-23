@@ -8,10 +8,14 @@
     <string name="login">Inciar Sesión</string>
     <string name="sign_in">Registrarse</string>
     <string name="forget">Olvidé mi contraseña</string>
+    <string name="send">Enviar</string>
     <string name="visa">Visa</string>
-    <string name="mastercard">Mastercard</string>
+    <string name="mastercard">Master card</string>
     <string name="american">American Express</string>
     <string name="cardn">Número de tarjeta</string>
+    <string name="ing_email">Ingresa tu correo, te enviaremos un enlace para que
+    puedas actualizar tu contraseña</string>
+    <string name="invalid_email">Email inválido</string>
     <string name="termns">He leído y estoy de acuerdo con los Términos y Condiciones y con las Políticas y Tratamientos de Datos Personales</string>
     <string name="error_invalid_email">Este correo es invalido</string>
     <string name="error_invalid_password">Esta contraseña es demasiado corta</string>
