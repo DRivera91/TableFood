@@ -22,6 +22,7 @@
             android:name=".Activities.buycar"
             android:label="@string/title_activity_buycar"
             android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".Activities.recordar"></activity>
     </application>
 
 </manifest>

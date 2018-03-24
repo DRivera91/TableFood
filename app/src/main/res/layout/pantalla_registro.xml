@@ -9,6 +9,8 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:paddingHorizontal="15dp"
+        android:paddingVertical="10dp"
         android:orientation="vertical">
 
         <EditText
@@ -16,6 +18,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
+            android:padding="5dp"
+            android:layout_margin="5dp"
             android:inputType="textPersonName"
             android:hint="@string/surname" />
 
@@ -24,15 +28,20 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:inputType="textPersonName"
-            android:hint="@string/email" />
+            android:padding="5dp"
+            android:layout_margin="5dp"
+            android:inputType="textEmailAddress"
+            android:hint="@string/email"
+            />
 
         <EditText
             android:id="@+id/editText8"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:inputType="textPersonName"
+            android:padding="5dp"
+            android:layout_margin="5dp"
+            android:inputType="number"
             android:hint="@string/phone" />
 
         <EditText
@@ -40,6 +49,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
+            android:padding="5dp"
+            android:layout_margin="5dp"
             android:hint="@string/password"
             android:inputType="textPassword" />
 
@@ -48,6 +59,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
+            android:padding="5dp"
+            android:layout_margin="5dp"
             android:hint="@string/confirm_password"
             android:inputType="textPassword" />
 
@@ -56,26 +69,34 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:paddingHorizontal="15dp"
+        android:paddingVertical="10dp"
         android:orientation="horizontal">
 
         <RadioButton
             android:id="@+id/radioButton6"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:padding="5dp"
+            android:layout_margin="5dp"
             android:layout_weight="1"
             android:text="@string/visa" />
 
         <RadioButton
             android:id="@+id/radioButton5"
-            android:layout_width="wrap_content"
+            android:layout_width="100dp"
             android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:layout_margin="5dp"
             android:layout_weight="1"
             android:text="@string/mastercard" />
 
         <RadioButton
             android:id="@+id/radioButton4"
-            android:layout_width="wrap_content"
+            android:layout_width="100dp"
             android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:layout_margin="5dp"
             android:layout_weight="1"
             android:text="@string/american" />
     </LinearLayout>
@@ -83,6 +104,8 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:paddingHorizontal="15dp"
+        android:paddingVertical="10dp"
         android:orientation="vertical">
 
         <EditText
@@ -90,11 +113,15 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
+            android:padding="5dp"
+            android:layout_margin="5dp"
             android:inputType="textPersonName"
             android:hint="@string/cardn" />
 
         <CheckBox
             android:id="@+id/checkBox2"
+            android:padding="5dp"
+            android:layout_margin="5dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/termns" />
@@ -103,6 +130,8 @@
             android:id="@+id/button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:layout_margin="5dp"
             android:text="@string/sign_in" />
 
     </LinearLayout>
