@@ -37,7 +37,6 @@
         android:hint="@string/email"
         android:drawableLeft="@drawable/ic_action_user"
         android:inputType="textPersonName"
-        android:text="Name"
         android:textColor="@color/black"
         android:textSize="16dp" />
 

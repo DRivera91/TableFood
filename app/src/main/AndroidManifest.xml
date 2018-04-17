@@ -18,11 +18,12 @@
         </activity>
         <activity android:name=".Activities.pantalla_registro" />
         <activity android:name=".Activities.pantalla_usuario" />
+        <activity android:name=".Activities.recordar" />
         <activity
             android:name=".Activities.buycar"
             android:label="@string/title_activity_buycar"
             android:theme="@style/AppTheme.NoActionBar"></activity>
-        <activity android:name=".Activities.recordar"></activity>
+
     </application>
 
 </manifest>

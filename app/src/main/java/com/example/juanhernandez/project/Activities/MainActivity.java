@@ -9,6 +9,7 @@ import android.widget.AdapterView;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ListView;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.juanhernandez.project.R;
@@ -48,7 +49,16 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
+        TextView recordar = (TextView) findViewById(R.id.Password);
+        button1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
 
+                Intent Recordar = new Intent(MainActivity.this,recordar.class);
+                startActivity(Recordar);
+
+            }
+        });
 
     }
 }
