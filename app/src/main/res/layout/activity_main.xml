@@ -6,6 +6,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context="com.example.juanhernandez.project.Activities.MainActivity">
 
+
     <Button
         android:id="@+id/Button_Ingreso"
         android:layout_width="300dp"
