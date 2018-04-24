@@ -6,13 +6,12 @@
     tools:context="com.example.juanhernandez.project.Activities.MainActivity">
 
     <Button
-        android:id="@+id/Button_Ingreso"
+        android:id="@+id/Ingreso"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
         android:layout_alignParentStart="true"
-        android:layout_below="@+id/Password"
-        android:layout_marginTop="44dp"
+        android:layout_marginBottom="133dp"
         android:layout_weight="1"
         android:text="Ingresar" />
 
@@ -26,25 +25,24 @@
         android:src="@mipmap/ic_launcher" />
 
     <EditText
-        android:id="@+id/Name_User"
+        android:id="@+id/Email"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/imageView"
+        android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="191dp"
         android:ems="10"
+        android:hint="Name"
         android:inputType="textPersonName"
-        android:text="Name"
-        android:hint="Name"/>
+        android:text="Name" />
 
     <EditText
         android:id="@+id/Password"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/Name_User"
-        android:layout_alignStart="@+id/Name_User"
-        android:layout_below="@+id/Name_User"
-        android:layout_marginTop="27dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="205dp"
         android:ems="10"
         android:hint="Password"
         android:inputType="textPassword" />
@@ -53,9 +51,8 @@
         android:id="@+id/Registro"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_below="@+id/Button_Ingreso"
-        android:layout_marginTop="13dp"
+        android:layout_below="@+id/Ingreso"
+        android:layout_marginTop="-117dp"
         android:text="Registro" />
 </RelativeLayout>
