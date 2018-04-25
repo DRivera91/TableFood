@@ -14,38 +14,34 @@ import android.widget.Toast;
 import com.example.juanhernandez.project.R;
 
 public class MainActivity extends AppCompatActivity {
-
+    EditText mail, pass, forget;
+    Button login, register;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Button button = (Button) findViewById(R.id.Button_Ingreso);
-        button.setOnClickListener(new View.OnClickListener() {
+        mail =(EditText) findViewById(R.id.Name_User);
+        pass =(EditText) findViewById(R.id.Password);
+        login =(Button) findViewById(R.id.Button_Ingreso);
+        register =(Button) findViewById(R.id.Registro);
+        forget.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String usuario = ((EditText) findViewById(R.id.Name_User)).getText().toString();
-                String password = ((EditText) findViewById(R.id.Password)).getText().toString();
-                if (usuario.equals("Admin") && password.equals("12345"))
-                {
-                    Intent pantalla_usuario = new Intent(MainActivity.this,pantalla_usuario.class);
-                    startActivity(pantalla_usuario);
-                }
-                else
-                {
-                    Toast.makeText(getApplicationContext(),"Usuario Incorrecto", Toast.LENGTH_LONG).show();
-                }
+                Intent intent =new Intent(MainActivity.this, recovery.class);
+                startActivity(intent);
             }
         });
-
-        Button button1 = (Button) findViewById(R.id.Registro);
-        button1.setOnClickListener(new View.OnClickListener() {
+        login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
-                Intent Registro = new Intent(MainActivity.this,pantalla_registro.class);
-                startActivity(Registro);
-
+            }
+        });
+        register.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent =new Intent(MainActivity.this, pantalla_registro.class);
+                startActivity(intent);
             }
         });
 
