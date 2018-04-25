@@ -31,7 +31,6 @@ public class pantalla_registro extends AppCompatActivity {
         setContentView(R.layout.pantalla_registro);
         {
 
-            nombre=(EditText)findViewById(R.id.txtnombre);
             email=(EditText)findViewById(R.id.txtemail);
             password=(EditText)findViewById(R.id.txtpassword);
             confirm=(EditText)findViewById(R.id.txtconfirm);

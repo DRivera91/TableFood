@@ -25,11 +25,11 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".Activities.recovery" />
         <activity
-            android:name=".Restaurant"
+            android:name=".Activities.Restaurant"
             android:label="@string/title_activity_restaurant"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".carta"
+            android:name=".Activities.carta"
             android:label="@string/title_activity_carta"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
