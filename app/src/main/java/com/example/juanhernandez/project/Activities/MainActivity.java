@@ -9,12 +9,13 @@ import android.widget.AdapterView;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ListView;
+import android.widget.TextView;
 import android.widget.Toast;
-
 import com.example.juanhernandez.project.R;
 
 public class MainActivity extends AppCompatActivity {
-    EditText mail, pass, forget;
+    EditText mail, pass;
+    TextView forget;
     Button login, register;
 
     @Override
@@ -25,25 +26,27 @@ public class MainActivity extends AppCompatActivity {
         pass =(EditText) findViewById(R.id.Password);
         login =(Button) findViewById(R.id.Button_Ingreso);
         register =(Button) findViewById(R.id.Registro);
+        forget =(TextView) findViewById(R.id.olvidar);
+
         forget.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent =new Intent(MainActivity.this, recovery.class);
                 startActivity(intent);
             }
-        });
+    });
         login.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-            }
-        });
+        @Override
+        public void onClick(View v) {
+        }
+    });
         register.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent =new Intent(MainActivity.this, pantalla_registro.class);
-                startActivity(intent);
-            }
-        });
+        @Override
+        public void onClick(View v) {
+            Intent intent =new Intent(MainActivity.this, pantalla_registro.class);
+            startActivity(intent);
+        }
+    });
 
 
     }

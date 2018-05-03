@@ -12,8 +12,8 @@
         android:layout_width="300dp"
         android:layout_height="50dp"
         android:layout_above="@+id/Registro"
-        android:layout_alignEnd="@+id/textView7"
-        android:layout_alignRight="@+id/textView7"
+        android:layout_alignEnd="@+id/olvidar"
+        android:layout_alignRight="@+id/olvidar"
         android:layout_weight="1"
         android:text="@string/login" />
 

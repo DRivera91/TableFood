@@ -42,17 +42,12 @@ public class pantalla_registro extends AppCompatActivity {
                     String userP =password.getText().toString();
                     String userC =confirm.getText().toString();
 
-                    if(TextUtils.isEmpty(userE)){
+                    if(TextUtils.isEmpty(userE) || TextUtils.isEmpty(userP) || TextUtils.isEmpty(userC) ){
+                        Toast.makeText(getApplicationContext(),"no pueden haber campos vacios",Toast.LENGTH_SHORT).show();
+                    }else{
+                        if(TextUtils.equals(userC,userP)){
 
-                    }
-                    if(TextUtils.isEmpty(userP)){
-
-                    }
-                    if(TextUtils.isEmpty(userC)){
-
-                    }
-                    if(TextUtils.equals(userC,userP)){
-
+                        }
                     }
                     auth.createUserWithEmailAndPassword(userE,userP).addOnCompleteListener(pantalla_registro.this, new OnCompleteListener<AuthResult>() {
                         @Override
