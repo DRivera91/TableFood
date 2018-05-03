@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        mail =(EditText) findViewById(R.id.Name_User);
+      /*  mail =(EditText) findViewById(R.id.Name_User);
         pass =(EditText) findViewById(R.id.Password);
         login =(Button) findViewById(R.id.Button_Ingreso);
         register =(Button) findViewById(R.id.Registro);
@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
             Intent intent =new Intent(MainActivity.this, pantalla_registro.class);
             startActivity(intent);
         }
-    });
+    });*/
 
 
     }
