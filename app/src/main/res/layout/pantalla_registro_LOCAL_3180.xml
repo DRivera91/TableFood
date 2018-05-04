@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="15dp"
+        android:paddingVertical="10dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/editText10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:padding="5dp"
+            android:layout_margin="5dp"
+            android:inputType="textPersonName"
+            android:hint="@string/surname" />
+
+        <EditText
+            android:id="@+id/editText9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:padding="5dp"
+            android:layout_margin="5dp"
+            android:inputType="textEmailAddress"
+            android:hint="@string/email"
+            />
+
+        <EditText
+            android:id="@+id/editText8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:padding="5dp"
+            android:layout_margin="5dp"
+            android:inputType="number"
+            android:hint="@string/phone" />
+
+        <EditText
+            android:id="@+id/editText12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:padding="5dp"
+            android:layout_margin="5dp"
+            android:hint="@string/password"
+            android:inputType="textPassword" />
+
+        <EditText
+            android:id="@+id/editText13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:padding="5dp"
+            android:layout_margin="5dp"
+            android:hint="@string/confirm_password"
+            android:inputType="textPassword" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="15dp"
+        android:paddingVertical="10dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radioButton6"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:padding="5dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:text="@string/visa" />
+
+        <RadioButton
+            android:id="@+id/radioButton5"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:text="@string/mastercard" />
+
+        <RadioButton
+            android:id="@+id/radioButton4"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:text="@string/american" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="15dp"
+        android:paddingVertical="10dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/editText11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:padding="5dp"
+            android:layout_margin="5dp"
+            android:inputType="textPersonName"
+            android:hint="@string/cardn" />
+
+        <CheckBox
+            android:id="@+id/checkBox2"
+            android:padding="5dp"
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/termns" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:layout_margin="5dp"
+            android:text="@string/sign_in" />
+
+    </LinearLayout>
+
+</LinearLayout>

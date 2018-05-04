@@ -27,11 +27,17 @@
     <string name="error_invalid_password">Esta contraseña es demasiado corta</string>
     <string name="error_incorrect_password">La contraseña es icorrecta</string>
     <string name="error_field_required">El campo es requerido</string>
+<<<<<<< HEAD
+    <string name="title_activity_buycar">Carrito de compras</string>
+    <string name="confirm">Confirmar</string>
+    <string name="empty">carrito vacío</string>
+=======
     <string name="title_activity_scrolling">ScrollingActivity</string>
     <string name="help_pass">Ayuda de contraseña</string>
     <string name="text_recovery">Introduzca la dirección de correo electrónico asociado</string>
     <string name="cont">Continuar</string>
     <string name="slogan">Table Food \n primero a su mesa</string>
+>>>>>>> prueba
     <string name="large_text">
         "Material is the metaphor.\n\n"
 
@@ -122,6 +128,9 @@
         "when a user tries to pick up one of cards.\n\n"
     </string>
     <string name="action_settings">Settings</string>
+<<<<<<< HEAD
+=======
     <string name="title_activity_restaurant">restaurant</string>
     <string name="title_activity_carta">carta</string>
+>>>>>>> prueba
 </resources>

@@ -1,3 +1,10 @@
+<<<<<<< HEAD
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="app_bar_height">180dp</dimen>
+    <dimen name="text_margin">20dp</dimen>
+</resources>
+=======
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <dimen name="material_margin">16dp</dimen>
@@ -6,3 +13,4 @@
     <dimen name="text_margin">16dp</dimen>
     <dimen name="backdrop_title">30dp</dimen>
 </resources>
+>>>>>>> prueba
